@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/pexels-alex-azabache-3879060.jpg);
+}
+
+.titulo {
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.button {
+    width: 100px;
+    height: 100px;
+    font-family: 'Bungee Spice', cursive;
+    background-color: black;
+    border-radius: 100%;
+}
